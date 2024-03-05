@@ -14,10 +14,10 @@ declare module "next-auth" {
   }
 }
 
-import { JWT } from "@auth/core/jwt"
+import { JWT } from "@auth/core/jwt";
 
 declare module "@auth/core/jwt" {
   interface JWT {
-    role?: "ADMIN" | "USER"
+    role?: "ADMIN" | "USER";
   }
 }
